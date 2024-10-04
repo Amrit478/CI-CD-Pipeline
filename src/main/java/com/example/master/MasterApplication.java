@@ -14,12 +14,15 @@ public class MasterApplication {
 	public String hello() {
 		return "Hello World!";
 	}
-
+	@GetMapping
+	public String hello1() {
+		return "Hello World!";
+	
 }
 // echo "# CI-CD-Pipeline" >> README.md
 // git init
 // git add README.md
 // git commit -m "first commit"
-// git branch -M main
+// git branch -M master
 // git remote add origin https://github.com/Amrit478/CI-CD-Pipeline.git
-// git push -u origin main
+// git push -u origin master
