@@ -18,4 +18,8 @@ public class MasterApplication {
 	public String hello1() {
 		return "Hello World!";
 	}	
+	@GetMapping
+	public String hello2() {
+		return "Hello World!";
+	}
 }
